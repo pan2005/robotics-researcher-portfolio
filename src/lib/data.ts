@@ -24,43 +24,12 @@ export const translations = {
       addVideo: 'ADD LOCAL VIDEO',
       noSignal: 'NO VIDEO SIGNAL',
       rec: 'REC',
-      videos: [
-        {
-          id: "v1",
-          title: "Quadruped Robot Locomotion Testing",
-          description: "Testing our new RL-based controller on uneven terrain.",
-          url: "https://www.w3schools.com/html/mov_bbb.mp4",
-          type: "url",
-          date: "2025-03-12"
-        },
-        {
-          id: "v2",
-          title: "Autonomous Grasping in Clutter",
-          description: "6-DOF manipulator identifying and sorting target objects.",
-          url: "https://www.w3schools.com/html/mov_bbb.mp4",
-          type: "url",
-          date: "2025-01-28"
-        }
-      ]
+      videos: []
     },
     publications: {
       title: 'Publications & Research',
       subtitle: 'ACADEMIC CONTRIBUTIONS & TECHNICAL REPORTS',
-      list: [
-        {
-          title: "Real-time Path Planning in Dynamic Environments for Quadruped Robots",
-          conference: "ICRA 2025 (Under Review)",
-          authors: "Zheng Hao, Mentor A., Professor B.",
-          link: "#",
-          tag: "First Author"
-        },
-        {
-          title: "Efficient End-to-End Grasping using Lightweight Neural Networks",
-          conference: "IROS 2024",
-          authors: "Colleague X., Zheng Hao, Professor B.",
-          link: "#"
-        }
-      ]
+      list: []
     },
     footer: 'BUILT FOR ROBOTICS RESEARCH'
   },
@@ -89,43 +58,12 @@ export const translations = {
       addVideo: '添加本地视频',
       noSignal: '无视频信号',
       rec: '渲染中',
-      videos: [
-        {
-          id: "v1",
-          title: "四足机器人运动测试",
-          description: "在不平坦的地形上测试我们的强化学习控制器。",
-          url: "https://www.w3schools.com/html/mov_bbb.mp4",
-          type: "url",
-          date: "2025-03-12"
-        },
-        {
-          id: "v2",
-          title: "杂乱环境中的自主抓取",
-          description: "6自由度机械臂识别并分拣目标物体。",
-          url: "https://www.w3schools.com/html/mov_bbb.mp4",
-          type: "url",
-          date: "2025-01-28"
-        }
-      ]
+      videos: []
     },
     publications: {
       title: '发表论文与研究',
       subtitle: '学术贡献与技术报告',
-      list: [
-        {
-          title: "动态环境下四足机器人的实时路径规划",
-          conference: "ICRA 2025 (审稿中)",
-          authors: "郑浩, 导师 A., 教授 B.",
-          link: "#",
-          tag: "第一作者"
-        },
-        {
-          title: "基于轻量级神经网络的高效端到端抓取",
-          conference: "IROS 2024",
-          authors: "同事 X., 郑浩, 教授 B.",
-          link: "#"
-        }
-      ]
+      list: []
     },
     footer: '专为机器人研究开发'
   }

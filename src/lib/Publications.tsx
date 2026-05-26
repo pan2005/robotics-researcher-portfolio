@@ -17,6 +17,12 @@ export function Publications() {
         </span>
       </div>
 
+      {t.publications.list.length === 0 && (
+        <div className="p-8 glass rounded-xl text-center text-slate-400 text-sm border-dashed border-2 border-slate-200">
+          暂无发表论文 | No publications added yet
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {t.publications.list.map((pub, idx) => (
           <div 
