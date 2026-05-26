@@ -10,9 +10,9 @@ export const translations = {
       overview: '// PROFILE OVERVIEW',
       nameFirst: 'Pan',
       nameLast: 'Zhao Hui',
-      role: 'Undergraduate Researcher | Robotics & AI',
+      role: 'Undergraduate | Robotics & AI',
       institution: 'Nanjing University(C9 league/ TOP 9 in China)',
-      bio: 'I am a sophomore researcher specializing in autonomous robotics, computer vision, and embedded systems. My work focuses on bridging the gap between theoretical AI models and physical hardware constraints. I am passionate about building machines that can perceive, learn, and act intelligently in unstructured environments.',
+      bio: 'Geek. Project manager of the NJU RoboMaster Jinglin team and leader of the Hero robot group. 4K+ followers on Bilibili. Passionate about electronics, embedded systems, and building intelligent machines.',
       skills: ["ROS 2", "C++", "Python", "PyTorch", "Computer Vision", "STM32", "Hardware Prototyping", "Motor Control", "Linux/Bash"],
       email: 'EMAIL',
       github: 'GITHUB',
@@ -29,7 +29,7 @@ export const translations = {
           id: 'bilibili-4track',
           title: 'Four-Rocker Tracked Mobile Platform',
           description: 'A four-rocker tracked mobile platform designed for multi-terrain traversal. The rocker-arm suspension system enables active adaptation to uneven surfaces. Mechanical structure and embedded motor control firmware were independently developed.',
-          url: 'https://player.bilibili.com/player.html?bvid=BV1HmQtB1Eze&high_quality=1&autoplay=0&danmaku=0',
+          url: 'https://player.bilibili.com/player.html?bvid=BV1HmQtB1Eze&high_quality=1&autoplay=1&danmaku=0',
           type: 'bilibili',
           date: '2026-03'
         },
@@ -53,7 +53,7 @@ export const translations = {
           id: 'bilibili-exoskeleton',
           title: 'Robotic Arm Exoskeleton Control System',
           description: 'A wearable robotic arm exoskeleton control system integrating servo motor drivers and real-time kinematic feedback. Designed to assist upper-limb motion with position-tracking closed-loop control.',
-          url: 'https://player.bilibili.com/player.html?bvid=BV11d9bYiEpk&high_quality=1&autoplay=0&danmaku=0',
+          url: 'https://player.bilibili.com/player.html?bvid=BV11d9bYiEpk&high_quality=1&autoplay=1&danmaku=0',
           type: 'bilibili',
           date: '2025-02'
         }
@@ -77,9 +77,9 @@ export const translations = {
       overview: '// 个人简介',
       nameFirst: '潘',
       nameLast: '昭辉',
-      role: '本科研究员 | 嵌入式，机器人与人工智能',
+      role: '本科生 | 嵌入式，机器人与人工智能',
       institution: '南京大学（C9 联盟 985）',
-      bio: '我是一名准大三研究员，专注于自主机器人、计算机视觉和嵌入式系统。我的工作重点是弥合理论人工智能模型与物理硬件限制之间的差距。我热衷于构建能够在非结构化环境中感知、学习和智能行动的机器人系统。',
+      bio: '极客，RoboMaster 南大鲸麟战队项目管理，英雄组组长，B站粉丝 4K+，热爱电子技术、机器人。',
       skills: ["ROS 2", "C++", "Python", "PyTorch", "计算机视觉", "SLAM", "硬件原型设计", "传感器融合", "Linux/Bash"],
       email: '邮件',
       github: '开源社区',
@@ -96,7 +96,7 @@ export const translations = {
           id: 'bilibili-4track',
           title: '四摇臂履带移动平台',
           description: '四摇臂履带式移动平台，具备多地形通过能力。摇臂悬架系统可实现对不平整地面的主动适应。机械结构与嵌入式电机控制固件均为独立开发。',
-          url: 'https://player.bilibili.com/player.html?bvid=BV1HmQtB1Eze&high_quality=1&autoplay=0&danmaku=0',
+          url: 'https://player.bilibili.com/player.html?bvid=BV1HmQtB1Eze&high_quality=1&autoplay=1&danmaku=0',
           type: 'bilibili',
           date: '2026-03'
         },
@@ -120,7 +120,7 @@ export const translations = {
           id: 'bilibili-exoskeleton',
           title: '机械臂外骨骼控制系统',
           description: '可穿戴式机械臂外骨骼控制系统，集成伺服电机驱动与实时运动学反馈。基于位置跟踪的闭环控制实现上肢运动辅助。',
-          url: 'https://player.bilibili.com/player.html?bvid=BV11d9bYiEpk&high_quality=1&autoplay=0&danmaku=0',
+          url: 'https://player.bilibili.com/player.html?bvid=BV11d9bYiEpk&high_quality=1&autoplay=1&danmaku=0',
           type: 'bilibili',
           date: '2025-02'
         }

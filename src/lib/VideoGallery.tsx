@@ -124,7 +124,7 @@ export function VideoGallery() {
           </AnimatePresence>
 
           {/* Player Chrome */}
-          <div className="relative z-10 w-full bg-gradient-to-t from-slate-900/90 via-slate-900/60 to-transparent p-6 pt-20 flex items-center justify-between opacity-0 group-hover:opacity-100 transition-opacity">
+          <div className="relative z-10 w-full bg-gradient-to-t from-slate-900/90 via-slate-900/60 to-transparent p-6 pt-20 flex items-center justify-between opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
             <div>
               <h3 className="font-bold text-white text-sm">{activeVideo?.title || t.showcase.noSignal}</h3>
               <p className="text-[11px] text-slate-300 mt-1">{activeVideo?.description}</p>
@@ -132,7 +132,7 @@ export function VideoGallery() {
             {activeVideo && activeVideo.type !== 'bilibili' && (
               <button
                 onClick={togglePlay}
-                className="w-12 h-12 rounded-full flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-white transition-all shadow-lg border-2 border-white/20"
+                className="w-12 h-12 rounded-full flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-white transition-all shadow-lg border-2 border-white/20 pointer-events-auto"
               >
                 {isPlaying ? <Pause fill="currentColor" size={16} /> : <Play fill="currentColor" size={16} className="ml-1" />}
               </button>
