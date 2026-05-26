@@ -27,19 +27,35 @@ export const translations = {
       videos: [
         {
           id: 'bilibili-4track',
-          title: '4-Rocker Tracked Chassis',
-          description: 'A 4-rocker tracked chassis with multi-terrain crossing capability. Mechanical design and electronic control code were independently completed.',
+          title: 'Four-Rocker Tracked Mobile Platform',
+          description: 'A four-rocker tracked mobile platform designed for multi-terrain traversal. The rocker-arm suspension system enables active adaptation to uneven surfaces. Mechanical structure and embedded motor control firmware were independently developed.',
           url: 'https://player.bilibili.com/player.html?bvid=BV1HmQtB1Eze&high_quality=1&autoplay=0&danmaku=0',
           type: 'bilibili',
-          date: '2025-05'
+          date: '2026-03'
+        },
+        {
+          id: 'local-cricket',
+          title: 'Cricket Trajectory Control System',
+          description: 'A cricket ball trajectory control system based on servo motor actuation. Precise spin and velocity modulation are achieved through coordinated multi-axis servo control.',
+          url: '/videos/基于伺服电机的板球控制系统.mp4',
+          type: 'url',
+          date: '2025-12'
+        },
+        {
+          id: 'local-robomaster',
+          title: 'RoboMaster Hero Robot',
+          description: 'RoboMaster Hero robot developed for the RoboMaster Robotics Competition. Includes chassis drive system, gimbal aiming mechanism, and projectile launching subsystem.',
+          url: '/videos/Robomaster英雄.mp4',
+          type: 'url',
+          date: '2025-10 ~ 2026-02'
         },
         {
           id: 'bilibili-exoskeleton',
           title: 'Robotic Arm Exoskeleton Control System',
-          description: 'A self-developed robotic arm exoskeleton control system.',
+          description: 'A wearable robotic arm exoskeleton control system integrating servo motor drivers and real-time kinematic feedback. Designed to assist upper-limb motion with position-tracking closed-loop control.',
           url: 'https://player.bilibili.com/player.html?bvid=BV11d9bYiEpk&high_quality=1&autoplay=0&danmaku=0',
           type: 'bilibili',
-          date: '2025-05'
+          date: '2025-02'
         }
       ]
     },
@@ -78,19 +94,35 @@ export const translations = {
       videos: [
         {
           id: 'bilibili-4track',
-          title: '4摇臂履带底盘多地形跨越',
-          description: '4摇臂履带底盘，具备多地形跨越能力。机械设计与电控代码均由我独立完成。',
+          title: '四摇臂履带移动平台',
+          description: '四摇臂履带式移动平台，具备多地形通过能力。摇臂悬架系统可实现对不平整地面的主动适应。机械结构与嵌入式电机控制固件均为独立开发。',
           url: 'https://player.bilibili.com/player.html?bvid=BV1HmQtB1Eze&high_quality=1&autoplay=0&danmaku=0',
           type: 'bilibili',
-          date: '2025-05'
+          date: '2026-03'
+        },
+        {
+          id: 'local-cricket',
+          title: '板球轨迹控制系统',
+          description: '基于伺服电机驱动的板球轨迹控制系统。通过多轴伺服协同控制实现精确的旋转与速度调节。',
+          url: '/videos/基于伺服电机的板球控制系统.mp4',
+          type: 'url',
+          date: '2025-12'
+        },
+        {
+          id: 'local-robomaster',
+          title: 'RoboMaster 英雄机器人',
+          description: '为全国大学生机器人大赛RoboMaster赛事开发的英雄机器人。涵盖底盘驱动系统、云台瞄准机构及弹丸发射子系统。',
+          url: '/videos/Robomaster英雄.mp4',
+          type: 'url',
+          date: '2025-10 ~ 2026-02'
         },
         {
           id: 'bilibili-exoskeleton',
           title: '机械臂外骨骼控制系统',
-          description: '自己开发的一套机械臂外骨骼控制系统。',
+          description: '可穿戴式机械臂外骨骼控制系统，集成伺服电机驱动与实时运动学反馈。基于位置跟踪的闭环控制实现上肢运动辅助。',
           url: 'https://player.bilibili.com/player.html?bvid=BV11d9bYiEpk&high_quality=1&autoplay=0&danmaku=0',
           type: 'bilibili',
-          date: '2025-05'
+          date: '2025-02'
         }
       ]
     },
