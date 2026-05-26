@@ -32,6 +32,14 @@ export const translations = {
           url: 'https://player.bilibili.com/player.html?bvid=BV1HmQtB1Eze&high_quality=1&autoplay=0&danmaku=0',
           type: 'bilibili',
           date: '2025-05'
+        },
+        {
+          id: 'bilibili-exoskeleton',
+          title: 'Robotic Arm Exoskeleton Control System',
+          description: 'A self-developed robotic arm exoskeleton control system.',
+          url: 'https://player.bilibili.com/player.html?bvid=BV11d9bYiEpk&high_quality=1&autoplay=0&danmaku=0',
+          type: 'bilibili',
+          date: '2025-05'
         }
       ]
     },
@@ -73,6 +81,14 @@ export const translations = {
           title: '4摇臂履带底盘多地形跨越',
           description: '4摇臂履带底盘，具备多地形跨越能力。机械设计与电控代码均由我独立完成。',
           url: 'https://player.bilibili.com/player.html?bvid=BV1HmQtB1Eze&high_quality=1&autoplay=0&danmaku=0',
+          type: 'bilibili',
+          date: '2025-05'
+        },
+        {
+          id: 'bilibili-exoskeleton',
+          title: '机械臂外骨骼控制系统',
+          description: '自己开发的一套机械臂外骨骼控制系统。',
+          url: 'https://player.bilibili.com/player.html?bvid=BV11d9bYiEpk&high_quality=1&autoplay=0&danmaku=0',
           type: 'bilibili',
           date: '2025-05'
         }
