@@ -24,7 +24,16 @@ export const translations = {
       addVideo: 'ADD LOCAL VIDEO',
       noSignal: 'NO VIDEO SIGNAL',
       rec: 'REC',
-      videos: []
+      videos: [
+        {
+          id: 'bilibili-4track',
+          title: '4-Rocker Tracked Chassis',
+          description: 'A 4-rocker tracked chassis with multi-terrain crossing capability. Mechanical design and electronic control code were independently completed.',
+          url: 'https://player.bilibili.com/player.html?bvid=BV1HmQtB1Eze&high_quality=1&autoplay=0&danmaku=0',
+          type: 'bilibili',
+          date: '2025-05'
+        }
+      ]
     },
     publications: {
       title: 'Publications & Research',
@@ -58,7 +67,16 @@ export const translations = {
       addVideo: '添加本地视频',
       noSignal: '无视频信号',
       rec: '渲染中',
-      videos: []
+      videos: [
+        {
+          id: 'bilibili-4track',
+          title: '4摇臂履带底盘多地形跨越',
+          description: '4摇臂履带底盘，具备多地形跨越能力。机械设计与电控代码均由我独立完成。',
+          url: 'https://player.bilibili.com/player.html?bvid=BV1HmQtB1Eze&high_quality=1&autoplay=0&danmaku=0',
+          type: 'bilibili',
+          date: '2025-05'
+        }
+      ]
     },
     publications: {
       title: '发表论文与研究',

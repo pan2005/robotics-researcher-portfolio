@@ -8,7 +8,7 @@ interface VideoFile {
   title: string;
   description: string;
   url: string;
-  type: 'local' | 'url';
+  type: 'local' | 'url' | 'bilibili';
   date: string;
 }
 
@@ -88,20 +88,34 @@ export function VideoGallery() {
         <div className="lg:col-span-8 relative group rounded-xl overflow-hidden glass aspect-video flex flex-col justify-end shadow-sm">
           <AnimatePresence mode="popLayout">
             {activeVideo ? (
-              <motion.video
-                key={activeVideo.id}
-                ref={videoRef}
-                src={activeVideo.url}
-                className="absolute inset-0 w-full h-full object-cover"
-                onEnded={() => setIsPlaying(false)}
-                onPlay={() => setIsPlaying(true)}
-                onPause={() => setIsPlaying(false)}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                controls={false}
-                autoPlay
-              />
+              activeVideo.type === 'bilibili' ? (
+                <motion.iframe
+                  key={activeVideo.id}
+                  src={activeVideo.url}
+                  className="absolute inset-0 w-full h-full"
+                  style={{ border: 'none' }}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                />
+              ) : (
+                <motion.video
+                  key={activeVideo.id}
+                  ref={videoRef}
+                  src={activeVideo.url}
+                  className="absolute inset-0 w-full h-full object-cover"
+                  onEnded={() => setIsPlaying(false)}
+                  onPlay={() => setIsPlaying(true)}
+                  onPause={() => setIsPlaying(false)}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  controls={false}
+                  autoPlay
+                />
+              )
             ) : (
               <div className="absolute inset-0 flex items-center justify-center font-mono text-slate-400 text-xs uppercase tracking-widest video-placeholder">
                 {t.showcase.noSignal}
@@ -115,8 +129,8 @@ export function VideoGallery() {
               <h3 className="font-bold text-white text-sm">{activeVideo?.title || t.showcase.noSignal}</h3>
               <p className="text-[11px] text-slate-300 mt-1">{activeVideo?.description}</p>
             </div>
-            {activeVideo && (
-              <button 
+            {activeVideo && activeVideo.type !== 'bilibili' && (
+              <button
                 onClick={togglePlay}
                 className="w-12 h-12 rounded-full flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-white transition-all shadow-lg border-2 border-white/20"
               >
@@ -124,9 +138,9 @@ export function VideoGallery() {
               </button>
             )}
           </div>
-          
+
           {/* Hardware visual framing */}
-          {isPlaying && (
+          {isPlaying && activeVideo?.type !== 'bilibili' && (
             <div className="absolute top-4 right-4 flex items-center gap-2 font-mono text-[10px] uppercase font-bold tracking-widest text-red-500 pointer-events-none">
               <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse border border-white/50"></span>
               {t.showcase.rec}
